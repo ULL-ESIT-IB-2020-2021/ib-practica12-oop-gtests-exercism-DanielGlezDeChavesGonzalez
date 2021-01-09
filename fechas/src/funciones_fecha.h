@@ -12,8 +12,8 @@
  * 
  */
 
-#ifndef funciones_h_included
-#define funciones_h_included
+#ifndef funciones_fecha_h_included
+#define funciones_fecha_h_included
 
 #include <iostream>
 #include <string>
