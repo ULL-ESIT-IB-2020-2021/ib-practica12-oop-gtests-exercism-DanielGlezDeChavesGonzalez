@@ -1,7 +1,9 @@
 /**
  * @file fecha.cc
  * @author Daniel Glez de Chaves Glez
- * @brief 
+ * @brief Programa que introduciendo dos archivos por linea de comando
+ *        coge las fechas del primer archivo y las imprime en el segundo 
+ *        en orden ascendente
  * 
  * 
  * 
@@ -22,7 +24,7 @@
 
 int main(int argc, char* argv[]){
     /**
-     * @brief Construct a new funcionamiento object
+     * @brief Funcion que comprueba si se ejecuto bien el programa
      * 
      */
     funcionamiento(argc,argv);
@@ -43,7 +45,7 @@ int main(int argc, char* argv[]){
         vector_fechas.push_back(fecha1);
     }
     /**
-     * @brief Construct a new Burbuja object
+     * @brief Funcion burbuja que ordena las fechas con el algoritmo burbuja
      * 
      */
     Burbuja(vector_fechas,tamano_vector);

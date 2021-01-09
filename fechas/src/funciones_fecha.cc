@@ -1,7 +1,7 @@
 /**
  * @file funciones_fecha.cc
  * @author Daniel Glez de Chaves Glez
- * @brief 
+ * @brief archivo que contiene la definicion de las funciones del archivo cabecera
  * 
  * 
  * 
@@ -17,7 +17,13 @@
 #include <vector>
 #include "funciones_fecha.h"
 
-
+/**
+ * @brief funcion operador < para objetos de la clase fecha
+ * 
+ * @param b1 
+ * @return true 
+ * @return false 
+ */
 bool Fecha::operator>(const Fecha& b1){
   if(anio>b1.anio){
     return true;
@@ -30,6 +36,12 @@ bool Fecha::operator>(const Fecha& b1){
   }
   return false;
 }
+/**
+ * @brief funcion que calcula si el año introducido es bisiesto
+ * 
+ * @return true 
+ * @return false 
+ */
 bool Fecha::bisiesto() {
     if((anio %4)==0){
         return true;

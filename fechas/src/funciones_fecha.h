@@ -1,7 +1,7 @@
 /**
  * @file funciones_fecha.h
  * @author Daniel Glez de Chaves Glez
- * @brief 
+ * @brief archivo de cabecera que contiene la declaracion de las funciones
  * 
  * 
  * 
@@ -20,13 +20,17 @@
 #include <vector>
 
 /**
- * @brief 
+ * @brief declaracion de la funcion que revisa el correcto llamamiento del programa
  * 
  * @param argc 
  * @param argv 
  */
 void funcionamiento (int argc, char* argv[]);
 
+/**
+ * @brief declaracion de la clase fecha
+ * 
+ */
 class Fecha{
     public:
         int dia;
@@ -36,7 +40,7 @@ class Fecha{
         bool bisiesto ();
 };
 /**
- * @brief 
+ * @brief declaracion de la funcion algoritmo de ordenacion burbuja
  * 
  * @param fecha_para_ordenar 
  * @param tamano_vector 
